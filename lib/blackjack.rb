@@ -53,8 +53,9 @@ end
 def runner
   welcome 
   initial_round
-  prompt_user
-  if user_input == 'h'
+  hit?
+  until card_total > 21
+  
     
 end
     
