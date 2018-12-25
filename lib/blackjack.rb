@@ -23,11 +23,15 @@ def end_game(card_total)
 end
 
 def initial_round
-  # code #initial_round here
+  deal_card
+  deal_card
+  display_card_total
 end
 
-def hit?
-  # code hit? here
+def hit?(current_card_total)
+  prompt_user
+  get_user_input
+  
 end
 
 def invalid_command
